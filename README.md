@@ -4,7 +4,7 @@ This public repository contains Loon rule lists, an import index, and the applic
 
 Choose a category and tap **Import into Loon**. The links use Loon's documented remote-rule import URL. These lists contain match rules only; associate each imported rule set with the policy you want to use in Loon.
 
-The scheduled publisher refreshes the MetaCubeX-derived lists from [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat), which is licensed under GPL-3.0; see [the included license text](LICENSE-MetaCubeX-GPL-3.0.txt). `google-ai.list` is a separately curated compatibility list.
+The scheduled publisher refreshes the MetaCubeX-derived lists from [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat), which is licensed under GPL-3.0; see [the included license text](LICENSE-MetaCubeX-GPL-3.0.txt). `gemini.list` also includes the separately curated Google AI compatibility rules, with exact duplicates removed.
 
 | Category | ID | Import |
 | --- | --- | --- |
@@ -85,4 +85,3 @@ The scheduled publisher refreshes the MetaCubeX-derived lists from [MetaCubeX/me
 | 直连 | `cn` | [Import into Loon](https://www.nsloon.com/openloon/import?rules=https%3A%2F%2Fraw.githubusercontent.com%2Fcolorpure%2Fnextin-loon-rules-feed%2Fmain%2Frules%2Fcn.list) |
 | 直连 | `cn-ip` | [Import into Loon](https://www.nsloon.com/openloon/import?rules=https%3A%2F%2Fraw.githubusercontent.com%2Fcolorpure%2Fnextin-loon-rules-feed%2Fmain%2Frules%2Fcn-ip.list) |
 | 直连 | `non-cn` | [Import into Loon](https://www.nsloon.com/openloon/import?rules=https%3A%2F%2Fraw.githubusercontent.com%2Fcolorpure%2Fnextin-loon-rules-feed%2Fmain%2Frules%2Fnon-cn.list) |
-| AI | `google-ai` | [Import into Loon](https://www.nsloon.com/openloon/import?rules=https%3A%2F%2Fraw.githubusercontent.com%2Fcolorpure%2Fnextin-loon-rules-feed%2Fmain%2Frules%2Fgoogle-ai.list) |
