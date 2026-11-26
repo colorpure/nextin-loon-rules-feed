@@ -1,10 +1,10 @@
 # Loon Rule Feed
 
-This public repository contains Loon rule lists only. It does not contain a Loon configuration, proxy nodes, subscriptions, credentials, the source catalog, or maintenance scripts.
+This public repository contains Loon rule lists, an import index, and the applicable upstream license text. It does not contain a Loon configuration, proxy nodes, subscriptions, credentials, the upstream mapping catalog, or maintenance scripts.
 
 Choose a category and tap **Import into Loon**. The links use Loon's documented remote-rule import URL. These lists contain match rules only; associate each imported rule set with the policy you want to use in Loon.
 
-The scheduled publisher refreshes these files from the maintained source project. Upstream rule data remains subject to its original licensing; see [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat).
+The scheduled publisher refreshes the MetaCubeX-derived lists from [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat), which is licensed under GPL-3.0; see [the included license text](LICENSE-MetaCubeX-GPL-3.0.txt). `google-ai.list` is a separately curated compatibility list.
 
 | Category | ID | Import |
 | --- | --- | --- |
